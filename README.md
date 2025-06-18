@@ -4,7 +4,7 @@ This project is a **responsive React dashboard** built with **Tailwind CSS** (or
 
 ## 🚀 Demo
 
-Live demo: https://your-deployed-link.com
+Live demo: https://snazzy-cactus-f30841.netlify.app/
 
 ## 📁 Folder Structure
 
