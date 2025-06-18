@@ -6,6 +6,8 @@
   flex-direction: row;
 }
 
+
+
 /* Sidebar */
 .sidebar {
   background-color: #000;
@@ -130,6 +132,21 @@
   font-size: 20px;
   font-weight: bold;
   color: #111;
+}
+
+
+.total-revenue{
+  background-color: #72eda7;
+}
+
+.total-transactions{
+  background-color: #f7d899;
+}
+.total-likes{
+  background-color: #db8a8a;
+}
+.total-users{
+  background-color: #db8a8a;
 }
 
 /* Activities Section */
