@@ -1,12 +1,97 @@
-# React + Vite
+# 📊 React Dashboard UI (Figma Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **responsive React dashboard** built with **Tailwind CSS** (or CSS Modules, if preferred) that replicates a given **Figma design**. It includes a login page and a dashboard page with pixel-perfect UI, routing, authentication, and dynamic components.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live demo: https://your-deployed-link.com
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/
+│ ├── Dashboard/
+│ │ ├── Dashboard.jsx
+│ │ └── Dashboard.css
+│ └── Login/
+│ ├── Login.jsx
+│ └── Login.css
+├── App.jsx
+├── main.jsx
+└── index.css
+
+markdown
+Copy
+Edit
+
+## 📷 Screenshots
+
+### 🔐 Login Page
+- Google/Apple Sign-in buttons
+- Email/password authentication
+- Responsive layout (column layout on mobile)
+
+### 📊 Dashboard
+- Sidebar with navigation
+- Metric cards (Revenues, Transactions, Likes, Users)
+- Activity and Product cards
+- Fully responsive and visually accurate
+
+## 🔧 Features
+
+- 🎨 Pixel-perfect UI based on Figma design
+- 🧩 Component-based structure (Sidebar, MetricCards, etc.)
+- 🛠️ React Router for navigation (`/login`, `/dashboard`)
+- 🔐 Simple login functionality (hardcoded credentials)
+- 💅 Responsive design for mobile & desktop
+- 🧠 Clean and modular code with comments
+
+## 🧪 Credentials (for testing)
+
+Email: user@example.com
+Password: 123456
+
+markdown
+Copy
+Edit
+
+## 📦 Tech Stack
+
+- React.js
+- Tailwind CSS / CSS Modules
+- React Icons
+- React Router DOM
+
+## 💡 Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Run locally
+bash
+Copy
+Edit
+npm run dev
+The app will run on http://localhost:5173
+
+🌐 Deployment
+Deployed using Netlify / Vercel / GitHub Pages
+
+ Mobile-first responsive
+
+ All Figma specs matched
+
+ Hosted from main branch
+
+🗃️ Git Best Practices Used
+Descriptive commit messages
+
+Organized component structure
+
+.gitignore setup to exclude node_modules, .env, and build files
